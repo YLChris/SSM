@@ -1,0 +1,116 @@
+@CHARSET "UTF-8";
+* {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	background-color: #A5D5EB;
+}
+
+#page_wrap {
+	background: url('images/bg.jpg') no-repeat center;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+#login_wrap {
+	width: 100%;
+	height: 355px;
+	position: absolute;
+	top: 20%;
+}
+
+#login_wrap .login_item_pic {
+	background: url('images/login_bg.png') no-repeat center;
+	width: 470px;
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	margin-left: -235px;
+}
+
+#login_wrap span {
+	font-size: 20px;
+	position: absolute;
+	left: 50%;
+	margin: 55px 10px 10px -28px;
+	color: white;
+}
+
+#login_wrap form {
+	position: absolute;
+	left: 20%;
+	margin: 120px 10px 10px -30px;
+	color: white;
+}
+
+.admin {
+	width: 100%;
+	height: 30px;
+}
+
+.admin input {
+	background: #3877CD;
+	width: 280px;
+	height: 40px;
+	border: 2px solid #22407A;
+	position: absolute;
+	top: -10px;
+	margin-left: -8px;
+}
+
+.pwd {
+	width: 100%;
+	height: 30px;
+	padding-left: 16px;
+	padding-top: 30px;
+}
+
+.pwd input {
+	background: #3877CD;
+	width: 280px;
+	height: 40px;
+	border: 2px solid #22407A;
+}
+
+.key {
+	width: 100%;
+	height: 12px;
+	font-size: 12px;
+	text-align: right;
+	padding-top: 20px;
+}
+
+.key a {
+	font-size: 12px;
+	color: white;
+	text-decoration: none;
+}
+
+.move {
+	position: absolute;
+	left: 57px;
+	font-size: 12px;
+}
+
+.submit {
+	position: absolute;
+	padding-top: 20px;
+	padding-left: 56px;
+}
+
+.submit input {
+	color: white;
+	width: 100px;
+	height: 40px;
+	background: #2E6BC8;
+	border: 2px solid #22407A;
+	border-radius: 8px;
+	cursor: pointer;
+}
